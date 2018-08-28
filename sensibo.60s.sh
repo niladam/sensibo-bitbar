@@ -9,11 +9,16 @@
 # <bitbar.image>https://i.imgur.com/uy3ynSp.png</bitbar.image>
 #
 #
-# This plugin uses some undocumented Sensibo API functionality
-# shamefully borrowed from their web interface.
+# If you find any issues, have any suggestions and/or improevements,
+# please use the issues via https://github.com/niladam/sensibo-bitbar/issues
 #
-# This plugin also uses some code from the plugin Network Info bitbar
-# plugin by Raymond Kuiper (https://github.com/matryer/bitbar-plugins/blob/master/Network/netinfo.60s.sh)
+#
+# This plugin uses some undocumented Sensibo API
+# functionality shamefully borrowed from their web interface.
+#
+# This plugin also borrowed some code from the
+# Network Info bitbar plugin by Raymond Kuiper
+# (https://github.com/matryer/bitbar-plugins/blob/master/Network/netinfo.60s.sh)
 #
 
 
