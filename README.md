@@ -14,10 +14,11 @@ The plugin automatically lists all your available PODS with an option turn it on
 
 The data currently shown:
 
- - current temperature
- - humidity
- - swing
- - fan level
+ - status [ <strong>ON :white_check_mark: / OFF :red_circle:</strong> ]
+ - current temperature <strong>25.3 &deg;C / F</strong> (whichever is set)
+ - humidity [ <strong>💧 43.5%</strong> ]
+ - swing [ <strong>stopped</strong> ]
+ - fan level [ <strong>auto</strong> ]
 
 ### Installing (*manually* for now until the plugin is accepted into their official repo)
 
