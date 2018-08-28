@@ -1,6 +1,7 @@
-# Sensibo BitBar Plugin
 
-### This plugin provides a quick access to your [Sensibo](https://sensibo.com/) Pods. The plugin requires [jq](https://github.com/stedolan/jq) and obviously, [BitBar](https://getbitbar.com/).
+# Sensibo Bitbar Plugin
+
+### This plugin provides a quick access to your [Sensibo](https://sensibo.com/) Pods. The plugin requires [jq](https://github.com/stedolan/jq) and obviously, [Bitbar](https://getbitbar.com/).
 
 An API key is required in order for this plugin to function. Your API key can be set using the **API_KEY** variable inside the plugin and you're good to go.
 
@@ -18,3 +19,10 @@ The data currently shown:
  - humidity
  - swing
  - fan level
+
+### Thanks
+I'd like to extend a really grateful thank you to the following:
+
+ - Mat Ryer ([@matryer](https://github.com/matryer)) for his amazing work on [bitbar](https://github.com/matryer/bitbar)
+ - Stephen Dolan ([@stedolan](https://github.com/stedolan)) for his amazing work on [jq](https://github.com/stedolan/jq) which i use in many of my own personal scripts.
+ - Raymond Kuiper ([@q1x](https://github.com/q1x)) for creating his [netinfo](https://github.com/matryer/bitbar-plugins/blob/master/Network/netinfo.60s.sh) plugin allowing me to inspire this current plugin from his :)
