@@ -1,4 +1,3 @@
-
 # Sensibo Bitbar Plugin
 
 ### This plugin provides a quick access to your [Sensibo](https://sensibo.com/) Pods. The plugin requires [jq](https://github.com/stedolan/jq) and obviously, [Bitbar](https://getbitbar.com/).
@@ -20,6 +19,14 @@ The data currently shown:
  - swing
  - fan level
 
+### Installing (*manually* for now until the plugin is accepted into their official repo)
+
+ * Download and install the latest [bitbar](https://getbitbar.com/) app.
+ * Set your **plugins folder.**
+ * Download [sensibo.60s.sh](https://raw.githubusercontent.com/niladam/sensibo-bitbar/master/sensibo.60s.sh) and place it in your **plugins folder**
+ * **Refresh** your Bitbar (or restart) - enjoy.
+
+For a more detailed explanation about plugins, please visit [the official bitbar repo (installing plugins)](https://github.com/matryer/bitbar#installing-plugins)
 ### Thanks
 I'd like to extend a really grateful thank you to the following:
 
