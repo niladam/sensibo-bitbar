@@ -1,4 +1,4 @@
-# Sensibo Bitbar Plugin
+# Sensibo QuickControl Bitbar Plugin
 
 ### This plugin provides a quick access to your [Sensibo](https://sensibo.com/) Pods. The plugin requires [jq](https://github.com/stedolan/jq) and obviously, [Bitbar](https://getbitbar.com/).
 
@@ -7,10 +7,10 @@ An API key is required in order for this plugin to function. Your API key can be
 And because i know that an image is worth a thousand words, here's how it looks in your menubar:
 
 <p align="center">
-<img src="https://i.imgur.com/uy3ynSp.png" alt="Sensibo Bitbar Preview" />
+<img src="https://i.imgur.com/PyEYqGK.png" alt="Sensibo Bitbar Preview" />
 </p>
 
-The plugin automatically lists all your available PODS with an option turn it on and off.
+The plugin automatically lists all your available PODS with the option to turn/schedule them on or off.
 
 The data currently shown:
 
@@ -20,7 +20,8 @@ The data currently shown:
  - swing [ <strong>stopped</strong> ]
  - fan level [ <strong>auto</strong> ]
 
-### Installing (*manually* for now until the plugin is accepted into their official repo)
+### Installing
+#### The easiest option is to install it via the [official plugins site](https://getbitbar.com/), but for the ones who need this -- you can quickly read below.
 
  * Download and install the latest [bitbar](https://getbitbar.com/) app.
  * Set your **plugins folder.**
@@ -34,3 +35,4 @@ I'd like to extend a really grateful thank you to the following:
  - Mat Ryer ([@matryer](https://github.com/matryer)) for his amazing work on [bitbar](https://github.com/matryer/bitbar)
  - Stephen Dolan ([@stedolan](https://github.com/stedolan)) for his amazing work on [jq](https://github.com/stedolan/jq) which i use in many of my own personal scripts.
  - Raymond Kuiper ([@q1x](https://github.com/q1x)) for creating his [netinfo](https://github.com/matryer/bitbar-plugins/blob/master/Network/netinfo.60s.sh) plugin allowing me to inspire this current plugin from his :)
+ - Omer Enbar ([@omere2](https://github.com/omere2)) for providing the undocumented (yet) functionality of the timer/scheduler
