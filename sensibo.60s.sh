@@ -179,11 +179,18 @@ do
     POD_NAME=$(echo "$POD_DATA" | /usr/local/bin/jq -r '.result.room.name')
     # POD_LOC=$(echo "$POD_DATA" | /usr/local/bin/jq -r '.result.room.icon')
     POD_AC_STATE=$(echo "$POD_DATA" | /usr/local/bin/jq -r '.result.acState.on')
-    POD_TEMPERATURE=$(echo "$POD_DATA" | /usr/local/bin/jq -r '.result.measurements.temperature')
+    POD_TEMPERATURE_ORIGINAL=$(echo "$POD_DATA" | /usr/local/bin/jq -r '.result.measurements.temperature')
     POD_TEMPERATURE_UNIT=$(echo "$POD_DATA" | /usr/local/bin/jq -r '.result.acState.temperatureUnit')
     POD_HUMIDITY=$(echo "$POD_DATA" | /usr/local/bin/jq -r '.result.measurements.humidity')
     POD_SWING=$(echo "$POD_DATA" | /usr/local/bin/jq -r '.result.acState.swing')
     POD_FAN=$(echo "$POD_DATA" | /usr/local/bin/jq -r '.result.acState.fanLevel')
+
+    ## If user-defined temperature unit is Fahrenheit, then convert Celsius temperature value to Fahrenheit. If Celsius, keep value obtained from API call as-is.
+    if [ "$POD_TEMPERATURE_UNIT" = "F" ]; then
+        POD_TEMPERATURE=$(echo "$POD_TEMPERATURE_ORIGINAL * 1.8 + 32" | bc)
+    else
+        POD_TEMPERATURE=$POD_TEMPERATURE_ORIGINAL
+    fi
 
     # Pod is turned on.
     # @TODO: maybe check if theres an error..
