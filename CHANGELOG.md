@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.2.1] - 2020-01-21
+### Added
+- Use Fahrenheit if the unit uses this (thanks to [@RobertD502](https://github.com/RobertD502))
+
 ## [1.2.0] - 2018-09-03
 ### Added
 - Scheduled ON/OFF. Thanks to Omer Enbar ([@omere2](https://github.com/omere2)) for providing the undocumented (yet) functionality

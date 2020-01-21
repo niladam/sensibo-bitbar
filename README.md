@@ -15,7 +15,7 @@ The plugin automatically lists all your available PODS with the option to turn/s
 The data currently shown:
 
  - status [ <strong>ON :white_check_mark: / OFF :red_circle:</strong> ]
- - current temperature <strong>25.3 &deg;C / F</strong> (whichever is set)
+ - current temperature <strong>25.3 &deg;C / F</strong> (whichever is set) (starting from **1.2.1** the Fahrenheit is correctly displayed thanks to [@RobertD502](https://github.com/RobertD502))
  - humidity [ <strong>💧 43.5%</strong> ]
  - swing [ <strong>stopped</strong> ]
  - fan level [ <strong>auto</strong> ]
@@ -36,3 +36,4 @@ I'd like to extend a really grateful thank you to the following:
  - Stephen Dolan ([@stedolan](https://github.com/stedolan)) for his amazing work on [jq](https://github.com/stedolan/jq) which i use in many of my own personal scripts.
  - Raymond Kuiper ([@q1x](https://github.com/q1x)) for creating his [netinfo](https://github.com/matryer/bitbar-plugins/blob/master/Network/netinfo.60s.sh) plugin allowing me to inspire this current plugin from his :)
  - Omer Enbar ([@omere2](https://github.com/omere2)) for providing the undocumented (yet) functionality of the timer/scheduler
+ - [@RobertD502](https://github.com/RobertD502) for the Fahrenheit addition.
