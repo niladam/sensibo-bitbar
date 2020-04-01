@@ -36,4 +36,4 @@ I'd like to extend a really grateful thank you to the following:
  - Stephen Dolan ([@stedolan](https://github.com/stedolan)) for his amazing work on [jq](https://github.com/stedolan/jq) which i use in many of my own personal scripts.
  - Raymond Kuiper ([@q1x](https://github.com/q1x)) for creating his [netinfo](https://github.com/matryer/bitbar-plugins/blob/master/Network/netinfo.60s.sh) plugin allowing me to inspire this current plugin from his :)
  - Omer Enbar ([@omere2](https://github.com/omere2)) for providing the undocumented (yet) functionality of the timer/scheduler
- - [@RobertD502](https://github.com/RobertD502) for the Fahrenheit addition.
+ - [@RobertD502](https://github.com/RobertD502) for the Fahrenheit addition and the Climate React.

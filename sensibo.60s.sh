@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # <bitbar.title>Sensibo QuickControl</bitbar.title>
-# <bitbar.version>v1.2.1</bitbar.version>
+# <bitbar.version>v1.2.2</bitbar.version>
 # <bitbar.author>Madalin Tache</bitbar.author>
 # <bitbar.author.github>niladam</bitbar.author.github>
 # <bitbar.dependencies>jq</bitbar.dependencies>

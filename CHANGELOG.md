@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.2.2] - 2020-04-01
+### Added
+- Add Climate React (thanks to [@RobertD502](https://github.com/RobertD502))
+
 ## [1.2.1] - 2020-01-21
 ### Added
 - Use Fahrenheit if the unit uses this (thanks to [@RobertD502](https://github.com/RobertD502))
